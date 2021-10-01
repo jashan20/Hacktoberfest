@@ -1,4 +1,5 @@
- void solve(int open,int close,string res,vector<string> &solution){
+//Copied from Leetcode Soln. 
+void solve(int open,int close,string res,vector<string> &solution){
         if(open==0&&close==0){
             solution.push_back(res);
             return;
