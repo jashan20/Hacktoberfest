@@ -5,13 +5,10 @@ vector <int> bottomView(Node *root)
    if(root == NULL)
    return v;
 
-
-   //write code here
    queue<pair<Node*,int>> q;
    map<int,int> m;
    q.push({root,0});
-   while(!q.empty())
-   {
+   while(!q.empty()){
        auto p = q.front();
        Node *curr = p.first;
        int hd = p.second;
