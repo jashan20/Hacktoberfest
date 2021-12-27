@@ -27,6 +27,7 @@ int value[]={15,14,10,45,30};
 int weight[]={2,5,1,3,4};
 int n=sizeof(value)/sizeof(value[0]);
 int k=7;
+	
 cout<<knap(value,weight,n,k);
 	return 0;
 }
