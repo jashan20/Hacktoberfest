@@ -20,7 +20,8 @@ int knap(int *value,int *weight,int n,int k){
         }
     }
     return dp[n][k];
-    
+ 
+	
 }
 int main() {
 int value[]={15,14,10,45,30};
